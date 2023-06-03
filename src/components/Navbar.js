@@ -8,9 +8,9 @@ const Navbar = () => {
                 <a href="/">Home</a>
                 <a href="/">About Me</a>
                 <a href="/">Projects</a>
-                <a href="/">Services</a>
+                <a href="/">Skills</a>
             </div>
-            <ButtonStructure content={"Let's chat"} img={null}/>
+            <ButtonStructure content={"Let's chat"} img={null} theme={"white"}/>
         </nav>
      );
 }

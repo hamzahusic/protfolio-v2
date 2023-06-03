@@ -1,12 +1,16 @@
+import ButtonStructure from './components/BtnStructure';
+import CV from './CV.pdf'
 const About = () => {
     return ( 
         <section className='bg-[#0C0B0B] pt-[94px] pb-[140px]'>
             <div className='containter text-white'>
-                <h2 className='text-[60px] leading-[62px] tracking-[25px] pb-24'>ABOUT</h2>
+                <div className='flex justify-between pb-24'>
+                    <h2 className='text-[60px] leading-[62px] tracking-[25px] font-[400]'>ABOUT</h2>
+                    <a href={CV} download="CV - Hamza Husić" target="_blank" rel="noreferrer noopener" ><ButtonStructure content={"Download CV"} img ={null} theme={"black"}/></a>
+                </div>
                 <div className='flex justify-between'>
-                    <div className='relative'>
-                        <img src={require('./images/profileAbout.png')} alt="" />
-                        <div className='absolute border-2 border-white top-0 left-[-28px] right-0 bottom-[-28px] w-full h-full z-[0]'></div>
+                    <div className='aboutImg relative'>
+                        <img src={require('./images/profileAbout.png')} alt="" className='relative z-10' />       
                     </div>
                     <div className='max-w-[600px] secondaryFont leading-[50px] tracking-[1px] font-thin'>
                         <h3 className='text-[45px] pb-[45px]'>So Who Am I?</h3>
