@@ -2,7 +2,7 @@ import ButtonStructure from './components/BtnStructure';
 
 const Header = () => {
     return ( 
-        <header className='containter flex items-end pt-10'>
+        <header className='containter flex items-end pt-10 pb-36'>
           <div>
             <p className='secondaryFont leading-[25px] tracking-[2px] text-[22px] mb-3'>Front-end developer</p>
             <h1 className='text-[55px] leading-[62px] tracking-[1px] font-bold max-w-[650px]'>Creating low code solutions in modern way</h1>
@@ -24,7 +24,7 @@ const Header = () => {
 
           <div className='relative'>
             <img src={require('./images/profile.png')} alt="" />
-            <img src={require('./images/Rectangle.png')} alt="" className='absolute bottom-10 right-[-10px] z-[-1]' />
+            <img src={require('./images/Rectangle.png')} alt="" className='absolute bottom-5 right-[-10px] z-[-1]' />
           </div>
         </header>
      );
