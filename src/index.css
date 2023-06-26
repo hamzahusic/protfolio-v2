@@ -9,8 +9,11 @@ body{
 .secondaryFont{
     font-family: 'Lato', sans-serif;
 }
+.primaryFont{
+    font-family: 'Playfair Display', serif;
+}
 .containter{
-    max-width: 1200px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 .aboutImg:before{
