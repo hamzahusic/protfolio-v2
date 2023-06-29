@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='containter'>
       <div className='flex justify-between items-center py-5 md:py-[60px] px-5'>
-        <img src={logo} alt=""/>
+        <img src={logo} alt="" className="max-w-[48px] md:max-w-none"/>
         <div className='hidden md:flex text-xl gap-[45px]'>
           <a href="/">Home</a>
           <a href="/">About Me</a>
