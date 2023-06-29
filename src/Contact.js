@@ -2,7 +2,7 @@ const Contact = () => {
     return ( 
         <section className='bg-white'>
             <div className='containter text-black  md:pt-[94px] md:pb-[140px] py-10 md:py-0 px-5'>
-                <h2 className='tracking-widest md:leading-[62px] md:tracking-[25px] md:font-[400] text-3xl md:text-[60px]'>LET’S CHAT</h2>
+                <h2 className='tracking-widest md:leading-[62px] md:tracking-[25px] md:font-[400] text-3xl md:text-[60px] md:mb-16'>LET’S CHAT</h2>
         
                 <div className='flex justify-between items-center pt-8 flex-col lg:flex-row'>
                     <img src={require('./images/contactImg.png')} alt="" className='max-w-[280px] md:max-w-[450px] lg:max-w-[400px] xl:max-w-none'/>
