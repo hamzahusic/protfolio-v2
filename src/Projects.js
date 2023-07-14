@@ -3,10 +3,10 @@ import ButtonStructure from './components/BtnStructure';
 const Projects = () => {
     return ( 
         <section>
-            <div className='containter py-10 md:py-0 md:pt-[94px] md:pb-[170px] px-5'>
+            <div className='containter py-10 md:py-0 md:pt-[94px] md:pb-[170px] px-5' id='projects'>
                 <div className='flex justify-between pb-12 md:pb-24'>
                     <h2 className='tracking-widest md:leading-[62px] md:tracking-[25px] md:font-[400] text-3xl md:text-[60px]'>PROJECTS</h2>
-                    <ButtonStructure content={"Let's chat"} img ={null} theme={"white"}/>
+                    <ButtonStructure content={"Let's chat"} img ={null} theme={"white"} href={"/#lets-chat"}/>
                 </div>
 
                 <div className='flex justify-center xl:justify-between pt-0 md:pt-10 flex-wrap gap-5 md:gap-10'>

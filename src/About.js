@@ -3,10 +3,10 @@ import CV from './CV.pdf'
 const About = () => {
     return ( 
         <section className='bg-[#0C0B0B] md:pt-[94px] md:pb-[100px] text-white py-10 md:py-0'>
-            <div className='containter px-5'>
+            <div className='containter px-5' id='about-me'>
                 <div className='flex items-center justify-between'>
                         <h2 className=' tracking-widest md:leading-[62px] md:tracking-[25px] md:font-[400] text-3xl md:text-[60px]'>ABOUT</h2>
-                        <ButtonStructure content={"Download CV"} theme={"black"} href={CV} download={true} title={"CV - Hamza Husic"}/>
+                        <ButtonStructure content={"Download CV"} theme={"black"} href={CV} download={"CV - Hamza Husić"} title={"CV - Hamza Husic"}/>
                 </div>
                 <div className='md:flex md:py-24 justify-evenly items-center'> 
                         <div className='py-10 md:py-0 flex md:inline-block justify-center relative aboutImg md:ml-10 xl:ml-0'>
